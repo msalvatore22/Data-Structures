@@ -1,4 +1,10 @@
+// The set data structure stores values without any
+//  particular order and with no repeated values. Besides being able to add and remove elements to a set, there are a few other important set functions that work with two sets at once.
 
+// Union — This combines all the items from two different sets and returns this as a new set (with no duplicates).
+// Intersection — Given two sets, this function returns another set that has all items that are part of both sets.
+// Difference — This returns a list of items that are in one set but NOT in a different set.
+// Subset — This returns a boolean value that shows if all the elements in one set are included in a different set.
 
 function mySet(){
   var collection = [];
