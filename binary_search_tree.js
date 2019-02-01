@@ -113,7 +113,9 @@ class BST {
   }
   isPresent(data) {
     let current = this.root;
+    // while the node is not null
     while (current) {
+      // we found it
       if (data === current.data) {
         return true;
       }
@@ -127,6 +129,7 @@ class BST {
   }
   remove(data) {
     const removeNode = function(node, data) {
+      // check for empty tree
       if (node == null) {
         return null;
       }
