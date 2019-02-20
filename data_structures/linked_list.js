@@ -86,7 +86,7 @@ function LinkedList(){
       }
 
       // pointet will now skip over the currentnode
-      // that we want to devare
+      // that we want to delete
       previousNode.next = currentNode.next;
     }
 
