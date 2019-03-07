@@ -54,7 +54,7 @@ function LinkedList(){
     if(head === null){
       head = node;
     } else {
-      // vars add the node to the end of the linked list
+      // add the node to the end of the linked list
       var currentNode = head;
 
       // hop from node to node on the list

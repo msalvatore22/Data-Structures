@@ -36,6 +36,9 @@ var findPairs = function(nums, k){
       counter ++
       }
     }
+
     
   return counter
 }
+
+console.log(findPairs([3,1,4,1,5], 2))

@@ -16,4 +16,4 @@ var plusOne = function(digits) {
   return digits;
 }
 
-console.log(plusOne([4,3,2,1])) //returns [4,3,2,2]
+console.log(plusOne([6])) //returns [4,3,2,2]
